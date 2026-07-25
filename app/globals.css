@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 :root {
   --bg: #f8faf8;
   --surface: #ffffff;
@@ -21,26 +19,6 @@
   --shadow-card: 0 1px 2px rgba(22, 33, 29, 0.03), 0 10px 30px -18px rgba(22, 33, 29, 0.18);
   --shadow-lift: 0 1px 2px rgba(22, 33, 29, 0.04), 0 30px 60px -24px rgba(22, 33, 29, 0.26);
   --shadow-float: 0 2px 4px rgba(22, 33, 29, 0.05), 0 50px 90px -36px rgba(22, 33, 29, 0.34);
-}
-
-.dark {
-  --bg: #0c1512;
-  --surface: #111d18;
-  --surface-2: #0e1814;
-  --ink: #e7efea;
-  --muted: #9aa9a2;
-  --faint: #66756e;
-  --line: #1e2f28;
-  --hairline: #17241f;
-  --forest: #2f9179;
-  --sage: #6fae82;
-  --leaf: #5dbb63;
-  --forest-soft: #10241d;
-
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
-  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px -18px rgba(0, 0, 0, 0.7);
-  --shadow-lift: 0 1px 2px rgba(0, 0, 0, 0.5), 0 30px 60px -24px rgba(0, 0, 0, 0.8);
-  --shadow-float: 0 2px 4px rgba(0, 0, 0, 0.5), 0 50px 90px -36px rgba(0, 0, 0, 0.9);
 }
 
 @theme inline {

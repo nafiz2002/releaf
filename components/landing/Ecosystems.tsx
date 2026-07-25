@@ -69,7 +69,7 @@ export default function Ecosystems() {
               >
                 {/* Left: pitch + features */}
                 <div className="bg-surface p-7 sm:p-9">
-                  <span className={`inline-flex w-fit items-center rounded-lg px-2.5 py-1 text-[11px] font-medium ${isGold ? "bg-[#f7f0dc] text-[#7a5f10] dark:bg-[#2a220c] dark:text-[#e6b52a]" : "bg-forest-soft text-forest"}`}>
+                  <span className={`inline-flex w-fit items-center rounded-lg px-2.5 py-1 text-[11px] font-medium ${isGold ? "bg-[#f7f0dc] text-[#7a5f10]" : "bg-forest-soft text-forest"}`}>
                     {eco.title}
                   </span>
                   <h3 className="mt-5 text-[1.5rem] font-semibold leading-[1.18] tracking-[-0.03em] text-ink sm:text-[1.75rem]">
@@ -98,7 +98,7 @@ export default function Ecosystems() {
                   {eco.stats.map((st) => (
                     <div key={st.k} className="flex items-center justify-between bg-surface-2 px-7 py-6 sm:px-9">
                       <span className="text-[12px] font-medium uppercase tracking-[0.1em] text-faint">{st.k}</span>
-                      <span className={`font-mono text-[1.125rem] font-semibold tracking-[-0.02em] ${isGold ? "text-[#8a6d12] dark:text-[#e6b52a]" : "text-ink"}`}>
+                      <span className={`font-mono text-[1.125rem] font-semibold tracking-[-0.02em] ${isGold ? "text-[#8a6d12]" : "text-ink"}`}>
                         {st.v}
                       </span>
                     </div>

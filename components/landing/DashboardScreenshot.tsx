@@ -42,12 +42,12 @@ export default function DashboardScreenshot() {
 
           <div className="p-5">
             {/* money row — the only gold on the page */}
-            <div className="flex items-center justify-between rounded-xl border border-[color:var(--leaf)]/25 bg-[#fbf7ea] px-4 py-3 dark:bg-[#231d09]">
+            <div className="flex items-center justify-between rounded-xl border border-[color:var(--leaf)]/25 bg-[#fbf7ea] px-4 py-3">
               <div>
-                <p className="text-[10.5px] font-medium uppercase tracking-[0.1em] text-[#8a6d12] dark:text-[#d9a520]">Paid this month</p>
-                <p className="mt-1 font-mono text-[19px] font-semibold tracking-[-0.02em] text-[#7a5f10] dark:text-[#e6b52a]">৳3,480</p>
+                <p className="text-[10.5px] font-medium uppercase tracking-[0.1em] text-[#8a6d12]">Paid this month</p>
+                <p className="mt-1 font-mono text-[19px] font-semibold tracking-[-0.02em] text-[#7a5f10]">৳3,480</p>
               </div>
-              <span className="rounded-lg bg-[#f2e6c2] px-2.5 py-1 text-[11px] font-medium text-[#7a5f10] dark:bg-[#3a2f0d] dark:text-[#e6b52a]">Instant</span>
+              <span className="rounded-lg bg-[#f2e6c2] px-2.5 py-1 text-[11px] font-medium text-[#7a5f10]">Instant</span>
             </div>
 
             <div className="mt-4 grid grid-cols-3 gap-3">

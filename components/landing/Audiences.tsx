@@ -18,7 +18,7 @@ export default function Audiences() {
           {audiences.map((a, i) => (
             <Reveal key={a.id} delay={i * 0.08}>
               <article className="flex h-full flex-col rounded-2xl border border-line bg-surface p-7 shadow-[var(--shadow-card)] transition-[transform,box-shadow] duration-300 hover:shadow-[var(--shadow-lift)] motion-safe:hover:-translate-y-1.5 sm:p-8">
-                <span className={`inline-flex w-fit items-center rounded-lg px-2.5 py-1 text-[11px] font-medium ${a.tone === "gold" ? "bg-[#f7f0dc] text-[#7a5f10] dark:bg-[#2a220c] dark:text-[#e6b52a]" : "bg-forest-soft text-forest"}`}>
+                <span className={`inline-flex w-fit items-center rounded-lg px-2.5 py-1 text-[11px] font-medium ${a.tone === "gold" ? "bg-[#f7f0dc] text-[#7a5f10]" : "bg-forest-soft text-forest"}`}>
                   {a.title}
                 </span>
                 <h3 className="mt-5 text-[1.375rem] font-semibold leading-[1.2] tracking-[-0.03em] text-ink">{a.line}</h3>

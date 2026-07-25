@@ -23,7 +23,7 @@ export default function LiveImpact() {
             <Reveal key={s.id} delay={(i % 3) * 0.06} className="bg-surface">
               <div className="flex h-full flex-col p-7 sm:p-8">
                 <span aria-hidden className={`h-1 w-6 rounded-full ${s.tone === "gold" ? "bg-[#c99a1e]" : "bg-forest/60"}`} />
-                <p className={`mt-5 font-mono text-[2rem] font-semibold leading-none tracking-[-0.04em] ${s.tone === "gold" ? "text-[#8a6d12] dark:text-[#e6b52a]" : "text-ink"}`}>
+                <p className={`mt-5 font-mono text-[2rem] font-semibold leading-none tracking-[-0.04em] ${s.tone === "gold" ? "text-[#8a6d12]" : "text-ink"}`}>
                   <Counter value={s.value} decimals={s.decimals} prefix={s.prefix} suffix={s.suffix} />
                 </p>
                 <p className="mt-3.5 text-[13.5px] font-medium tracking-[-0.015em] text-ink">{s.label}</p>

@@ -53,19 +53,19 @@ const ecosystems: Ecosystem[] = [
 
 const tile: Record<Accent, string> = {
   green: "bg-leaf-soft text-leaf",
-  blue: "bg-[#2563EB]/10 text-[#2563EB] dark:text-[#60A5FA]",
+  blue: "bg-[#2563EB]/10 text-[#2563EB]",
   gold: "bg-gold/10 text-gold",
 };
 
 const dot: Record<Accent, string> = {
   green: "bg-leaf",
-  blue: "bg-[#2563EB] dark:bg-[#60A5FA]",
+  blue: "bg-[#2563EB]",
   gold: "bg-gold",
 };
 
 const tag: Record<Accent, string> = {
   green: "text-leaf",
-  blue: "text-[#2563EB] dark:text-[#60A5FA]",
+  blue: "text-[#2563EB]",
   gold: "text-gold",
 };
 

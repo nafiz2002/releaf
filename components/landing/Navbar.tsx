@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ButtonLink } from "@/components/ui/Button";
-import ThemeToggle from "@/components/ThemeToggle";
 
 const links = [
   { href: "#problem", label: "The problem" },
@@ -80,8 +79,6 @@ export default function Navbar() {
 
         {/* Right Side */}
         <div className="flex items-center gap-2">
-          <ThemeToggle />
-
           <div className="hidden sm:block">
             <ButtonLink href="#cta" size="sm">
               Schedule Pickup

@@ -20,22 +20,6 @@ export const metadata: Metadata = {
     "ReLeaf connects households, businesses, schools and collectors to recycling factories — weighed, tracked, and paid the moment waste is collected.",
 };
 
-const themeScript = `
-(function () {
-  try {
-    const savedTheme = localStorage.getItem("releaf-theme");
-
-    if (savedTheme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  } catch (e) {
-    document.documentElement.classList.remove("dark");
-  }
-})();
-`;
-
 export default function RootLayout({
   children,
 }: {
@@ -45,16 +29,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${inter.variable} ${geistMono.variable}`}
-      suppressHydrationWarning
     >
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: themeScript,
-          }}
-        />
-      </head>
-
       <body className="bg-bg font-sans text-ink antialiased">
         {children}
       </body>

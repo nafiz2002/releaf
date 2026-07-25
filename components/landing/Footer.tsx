@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { impact } from "@/lib/data";
 
 const groups = [
@@ -30,9 +31,14 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-6xl px-6 py-12 sm:px-8 lg:px-10">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
           <div className="max-w-xs">
-            <Link href="/" className="flex items-center gap-2 text-[15px] font-semibold tracking-[-0.03em] text-ink">
-              <span aria-hidden className="flex h-6 w-6 items-center justify-center rounded-lg bg-forest text-[12px] leading-none text-white">↻</span>
-              ReLeaf
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/rlgpbd.png"
+                alt="ReLeaf"
+                width={900}
+                height={225}
+                className="h-20 w-auto"
+              />
             </Link>
             <p className="mt-4 text-[13.5px] leading-[1.65] text-muted">
               The operating system for Bangladesh&rsquo;s recycling economy. Built in Dhaka.

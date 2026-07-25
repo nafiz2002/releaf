@@ -40,7 +40,7 @@ export default function Hero() {
           <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-x-10 gap-y-4">
             {strip.map((s) => (
               <div key={s.id} className="text-center">
-                <p className={`font-mono text-[1.375rem] font-semibold tracking-[-0.03em] ${s.tone === "gold" ? "text-[#8a6d12] dark:text-[#e6b52a]" : "text-ink"}`}>
+                <p className={`font-mono text-[1.375rem] font-semibold tracking-[-0.03em] ${s.tone === "gold" ? "text-[#8a6d12]" : "text-ink"}`}>
                   <Counter value={s.value} decimals={s.decimals} prefix={s.prefix} suffix={s.suffix} />
                 </p>
                 <p className="mt-1 text-[12.5px] text-muted">{s.label}</p>
