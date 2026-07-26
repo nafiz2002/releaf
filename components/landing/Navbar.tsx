@@ -6,6 +6,7 @@ import Image from "next/image";
 import { ButtonLink } from "@/components/ui/Button";
 
 const links = [
+  { href: "#home", label: "Home" },
   { href: "#problem", label: "The problem" },
   { href: "#how", label: "How it works" },
   { href: "#network", label: "The network" },
@@ -53,7 +54,7 @@ export default function Navbar() {
         className="mx-auto flex h-28 w-full max-w-6xl items-center justify-between px-6 sm:px-8 lg:px-10"
       >
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="#home" className="flex items-center">
           <Image
             src="/rlgpbd.png"
             alt="ReLeaf"

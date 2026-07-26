@@ -30,14 +30,14 @@ export default function Footer() {
 
       <div className="mx-auto w-full max-w-6xl px-6 py-12 sm:px-8 lg:px-10">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
-          <div className="max-w-xs">
+          <div className="max-w-sm">
             <Link href="/" className="flex items-center">
               <Image
                 src="/rlgpbd.png"
                 alt="ReLeaf"
                 width={900}
                 height={225}
-                className="h-20 w-auto"
+                className="h-28 sm:h-36 w-auto"
               />
             </Link>
             <p className="mt-4 text-[13.5px] leading-[1.65] text-muted">
