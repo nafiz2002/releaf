@@ -118,7 +118,7 @@ export default function Ecosystems() {
               <div className="mt-8 flex-1" />
 
               <ButtonLink
-                href="#rewards"
+                href="https://webreleaf.vercel.app/login"
                 variant={index === 0 ? "primary" : "secondary"}
                 className="w-full"
               >

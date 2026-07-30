@@ -81,7 +81,7 @@ export default function Navbar() {
         {/* Right Side */}
         <div className="flex items-center gap-2">
           <div className="hidden sm:block">
-            <ButtonLink href="#cta" size="sm">
+            <ButtonLink href="https://webreleaf.vercel.app/login" size="sm">
               Schedule Pickup
             </ButtonLink>
           </div>
@@ -132,7 +132,7 @@ export default function Navbar() {
           ))}
 
           <ButtonLink
-            href="#cta"
+            href="https://webreleaf.vercel.app/login"
             onClick={() => setOpen(false)}
             className="mt-4 w-full"
           >

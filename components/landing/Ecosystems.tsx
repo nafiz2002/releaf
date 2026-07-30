@@ -87,7 +87,7 @@ export default function Ecosystems() {
                   </ul>
 
                   <div className="mt-8">
-                    <ButtonLink href="#cta" variant={isGold ? "secondary" : "primary"}>
+                    <ButtonLink href="https://webreleaf.vercel.app/login" variant={isGold ? "secondary" : "primary"}>
                       {eco.cta}
                     </ButtonLink>
                   </div>

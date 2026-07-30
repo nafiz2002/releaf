@@ -27,7 +27,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <ButtonLink href="#cta" size="lg" className="w-full sm:w-auto">Schedule a pickup</ButtonLink>
+            <ButtonLink href="https://webreleaf.vercel.app/login" size="lg" className="w-full sm:w-auto">Schedule a pickup</ButtonLink>
             <ButtonLink href="#how" variant="secondary" size="lg" className="w-full sm:w-auto">See how it works</ButtonLink>
           </div>
         </Reveal>

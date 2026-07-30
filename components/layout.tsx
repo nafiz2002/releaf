@@ -29,8 +29,9 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${inter.variable} ${geistMono.variable}`}
+      suppressHydrationWarning
     >
-      <body className="bg-bg font-sans text-ink antialiased">
+      <body className="bg-bg font-sans text-ink antialiased" suppressHydrationWarning>
         {children}
       </body>
     </html>

@@ -31,7 +31,7 @@ export default function Audiences() {
                   ))}
                 </ul>
                 <div className="mt-8 flex-1" />
-                <ButtonLink href="#cta" variant={i === 0 ? "primary" : "secondary"} className="w-full">
+                <ButtonLink href="https://webreleaf.vercel.app/login" variant={i === 0 ? "primary" : "secondary"} className="w-full">
                   {a.id === "households" ? "Schedule a pickup" : a.id === "businesses" ? "Book a demo" : "Enrol a school"}
                 </ButtonLink>
               </article>
